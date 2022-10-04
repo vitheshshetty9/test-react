@@ -105,7 +105,7 @@ function Pop() {
               <h2 className="x" onClick={togle}>
                 X
               </h2>
-              <h1 className="h2">Register</h1>
+              <h1 className="h2">Register here</h1>
               <div className="box">
                 <span className="enter">Enter Email: </span>
                 <div>
