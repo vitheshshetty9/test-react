@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Pop from "./pop";
+import "./App.css";
+import { AiOutlineUserAdd } from "react-icons/ai";
+import { AiOutlineLogout } from "react-icons/ai";
 
-function App() {
+const App = () => {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bd">
+      <nav className="nav"><p className="p">Popup</p>
+      <span className="log">Logout  <span className="oo"> <AiOutlineLogout/></span></span>
+      </nav>
+      <h1 className="h1">Welcome User <AiOutlineUserAdd />  !!</h1>
+
+      <Pop/>
     </div>
   );
-}
+};
 
 export default App;
