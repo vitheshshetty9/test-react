@@ -107,7 +107,7 @@ function Pop() {
               </h2>
               <h1 className="h2">Register here</h1>
               <div className="box">
-                <span className="enter">Enter your Email: </span>
+                <span className="enter">Enter the Email: </span>
                 <div>
                   <input
                     className="inp"
